@@ -7,6 +7,7 @@ O código contém o array "acervo", inicialmente com alguns livros de exemplo, e
 Pontos levados em consideração:
 
 Parte 1: Gerenciamento Básico do Acervo (CRUD)
+
 1. Adicionar Livro (adicionarLivro)
    - Criar uma função que recebe titulo, autor, anoPublicacao e genero como parâmetros.
    - A função deve gerar automaticamente um id único (simule isso, por exemplo, incrementando um contador).
@@ -19,6 +20,7 @@ Parte 1: Gerenciamento Básico do Acervo (CRUD)
    - Criar uma função que recebe um id e remove o livro correspondente do array acervo.
 
 Parte 2: Controle de Empréstimos
+
 5. Emprestar Livro (emprestarLivro)
    - Criar uma função que recebe um titulo como parâmetro.
    - A função deve buscar o livro pelo título.
@@ -31,6 +33,7 @@ Parte 2: Controle de Empréstimos
    - Se o livro não for encontrado ou já estiver disponível, retorne uma mensagem de erro.
 
 Parte 3: Relatórios
+
 7. Listar Livros Disponíveis (listarLivrosDisponiveis)
    - Criar uma função que retorna um novo array contendo apenas os livros que estão disponíveis.
 8. Listar Livros Emprestados (listarLivrosEmprestados)
