@@ -20,23 +20,22 @@ Parte 1: Gerenciamento Básico do Acervo (CRUD)
 
 Parte 2: Controle de Empréstimos
 5. Emprestar Livro (emprestarLivro)
-    - Criar uma função que recebe um titulo como parâmetro.
-    - A função deve buscar o livro pelo título.
-    - Se o livro for encontrado e estiver disponível, altere sua propriedade disponivel para false e retorne uma mensagem de sucesso.
-    - Se o livro não for encontrado ou não estiver disponível, retorne uma mensagem de erro adequada.
+   - Criar uma função que recebe um titulo como parâmetro.
+   - A função deve buscar o livro pelo título.
+   - Se o livro for encontrado e estiver disponível, altere sua propriedade disponivel para false e retorne uma mensagem de sucesso.
+   - Se o livro não for encontrado ou não estiver disponível, retorne uma mensagem de erro adequada.
 6. Devolver Livro (devolverLivro)
-    - Criar uma função que recebe um titulo como parâmetro.
-    - A função deve buscar o livro pelo título.
-    - Se o livro for encontrado e não estiver disponível, altere sua propriedade disponivel para true.
-    - Se o livro não for encontrado ou já estiver disponível, retorne uma
-mensagem de erro.
+   - Criar uma função que recebe um titulo como parâmetro.
+   - A função deve buscar o livro pelo título.
+   - Se o livro for encontrado e não estiver disponível, altere sua propriedade disponivel para true.
+   - Se o livro não for encontrado ou já estiver disponível, retorne uma mensagem de erro.
 
 Parte 3: Relatórios
 7. Listar Livros Disponíveis (listarLivrosDisponiveis)
-    - Criar uma função que retorna um novo array contendo apenas os livros que estão disponíveis.
+   - Criar uma função que retorna um novo array contendo apenas os livros que estão disponíveis.
 8. Listar Livros Emprestados (listarLivrosEmprestados)
-    - Criar uma função que retorna um novo array contendo apenas os livros que não estão disponíveis.
+   - Criar uma função que retorna um novo array contendo apenas os livros que não estão disponíveis.
 9. Contador por Gênero (contarLivrosPorGenero)
-    - Criar uma função que conta quantos livros existem em cada gênero. O resultado pode ser um objeto onde as chaves são os gêneros e os valores são as contagens.
-    - Exemplo de saída: { "Programação": 5, "Ficção": 3, "História": 2 }
+   - Criar uma função que conta quantos livros existem em cada gênero. O resultado pode ser um objeto onde as chaves são os gêneros e os valores são as contagens.
+   - Exemplo de saída: { "Programação": 5, "Ficção": 3, "História": 2 }
 0. Encerramento de sistema (break)
